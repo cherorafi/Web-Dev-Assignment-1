@@ -1,5 +1,86 @@
 body {
-  font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  font-family: 'Courier New', Courier, monospace;
+  /*background-color: salmon;*/
+  background-image: url('https://www.pcclean.io/wp-content/uploads/2022/01/5052518926610576400.jpg');
   text-align: center;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.bb_img {
+  width: 360px; 
+  height: 800px; 
+  overflow: hidden;
+  /*
+  position: relative;
+  width: 50%;
+  */
+}
+
+/* Make the image responsive */
+.bb_img img {
+  margin: 0px 0px 0px -475px;
+  /*width: 100%;
+  height: auto;*/
+}
+
+.bb1_img {
+  width: 360px; 
+  height: 800px; 
+  overflow: hidden;
+  /*
+  position: relative;
+  width: 50%;
+  */
+}
+
+/* Make the image responsive */
+.bb1_img img {
+  margin: 0px 0px 0px -1200px;
+  zoom: 60%;
+  /*width: 100%;
+  height: auto;*/
+}
+
+.bb2_img {
+  width: 360px; 
+  height: 800px; 
+  overflow: hidden;
+  /*
+  position: relative;
+  width: 50%;
+  */
+}
+
+/* Make the image responsive */
+.bb2_img img {
+  margin: -300px 0px 0px -265px;
+  zoom: 125%;
+  /*width: 100%;
+  height: auto;*/
+}
+
+.bb3_img {
+  width: 360px; 
+  height: 800px; 
+  overflow: hidden;
+  /*
+  position: relative;
+  width: 50%;
+  */
+}
+
+/* Make the image responsive */
+.bb3_img img {
+  margin: 0px 0px 0px -1400px;
+  zoom: 64%;
+  /*width: 100%;
+  height: auto;*/
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  padding: 7.66px;
 }
